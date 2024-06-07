@@ -3,7 +3,6 @@ import { Route, Routes, useNavigate } from 'react-router-dom';
 import Header from './Header';
 import Booking from './Booking';
 import ConfirmedBooking from './ConfirmedBooking';
-import { useEffect } from 'react';
 
 const Main = () => {
     const seededRandom = function (seed) {
